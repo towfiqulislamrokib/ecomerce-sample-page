@@ -1,0 +1,29 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.header a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 32px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.header a:hover{
+    color: orange;
+}
+
+@media only screen and (max-width: 720px ) {
+     .header{
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .header a{
+        margin-left: 18px;
+    }
+  }
