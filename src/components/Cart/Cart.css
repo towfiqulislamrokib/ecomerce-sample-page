@@ -3,3 +3,15 @@
     top: 0;
     padding: 30px 20px;
 }
+.clear-cart{
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    background: #FF3030;
+    border-radius: 4px;
+    border: none;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    cursor: pointer;
+}
